@@ -1,0 +1,13 @@
+output
+
+### OSX ###
+*.DS_Store
+._*
+
+# build artifacts
+java6-to-java8.html
+java6-to-java8.pdf
+java6-to-java8.epub
+java6-to-java8-kf8.epub
+java6-to-java8.mobi
+java6-to-java8.mobi8

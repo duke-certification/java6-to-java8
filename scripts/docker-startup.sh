@@ -1,12 +1,16 @@
 #!/bin/sh
+output_folder=book-output
+release_folder=book-release
+
 book_name=java6-to-java8.asc
-logs=output/ebook.log
+logs=$output_folder/ebook.log
 
 version=0.1.0
 revdate=$(date '+%Y-%m-%d')
-params="--attribute revnumber=$version --attribute revdate=$revdate"
+params="--attribute revnumber=$version --attribute revdate=$revdate -D $release_folder"
 
-mkdir -p output
+mkdir -p $output_folder
+mkdir -p $release_folder
 
 printf "\n--------------------------------------------------------\n" >> $logs
 printf "$(date '+%Y-%m-%d %H:%M:%S') ---------- Exporting book formats...\n" >> $logs

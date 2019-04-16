@@ -19,7 +19,7 @@ public class TryWithResouces_05_Order {
 
   public static void main(String[] args) {
     try (Porta porta = new Porta();
-       Gaveta gaveta = new Gaveta()) {
+      Gaveta gaveta = new Gaveta()) {
       System.out.println("Olá.");
     }
   }

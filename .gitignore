@@ -13,3 +13,6 @@ arquivo*.txt
 .project
 .classpath
 build
+
+### others ###
+.vscode

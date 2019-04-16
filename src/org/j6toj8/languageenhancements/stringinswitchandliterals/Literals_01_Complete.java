@@ -4,6 +4,7 @@ public class Literals_01_Complete {
 
     public static void main(String[] args) {
 
+// tag::code[]
         int i1 = 1; // int
         int i2 = 1_000_000; // int com underscore
         int i3 = 0567; // octadecimal
@@ -20,7 +21,7 @@ public class Literals_01_Complete {
         double d3 = 1D; // double com D
         
         float f1 = 1.00F; // float
-        
+// end::code[]
     }
     
 }

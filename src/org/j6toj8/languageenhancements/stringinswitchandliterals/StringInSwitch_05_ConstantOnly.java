@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.stringinswitchandliterals;
 
-public class StringInSwitch {
+public class StringInSwitch_05_ConstantOnly {
 
     private static final String FEV = "fev";
     private static String jan = "jan";

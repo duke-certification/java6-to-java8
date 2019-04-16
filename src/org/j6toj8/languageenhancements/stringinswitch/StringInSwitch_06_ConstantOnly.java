@@ -1,4 +1,4 @@
-package org.j6toj8.languageenhancements.stringinswitchandliterals;
+package org.j6toj8.languageenhancements.stringinswitch;
 
 public class StringInSwitch_06_ConstantOnly {
 

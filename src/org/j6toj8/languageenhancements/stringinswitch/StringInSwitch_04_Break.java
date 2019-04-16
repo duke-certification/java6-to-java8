@@ -1,6 +1,6 @@
-package org.j6toj8.languageenhancements.stringinswitchandliterals;
+package org.j6toj8.languageenhancements.stringinswitch;
 
-public class StringInSwitch_01_Complete {
+public class StringInSwitch_04_Break {
 
     public static void main(String[] args) {
         
@@ -9,16 +9,15 @@ public class StringInSwitch_01_Complete {
         switch (mes) {
         case "jan":
             System.out.println("Janeiro");
-            break;
+        default:
+            System.out.println("Não é um mês");
         case "fev":
             System.out.println("Fevereiro");
             break;
         case "mar":
             System.out.println("Março");
             break;
-        default:
-            break;
-         }
+        }
         
     }
     

@@ -1,4 +1,4 @@
-package org.j6toj8.languageenhancements.stringinswitchandliterals;
+package org.j6toj8.languageenhancements.literals;
 
 public class Literals_02_Suffix {
 

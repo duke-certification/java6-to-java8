@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.stringinswitchandliterals;
 
-public class StringInSwitch_04_Empty {
+public class StringInSwitch_05_Empty {
 
     public static void main(String[] args) {
         

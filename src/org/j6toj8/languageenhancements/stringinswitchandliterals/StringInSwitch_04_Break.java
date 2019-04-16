@@ -1,21 +1,23 @@
 package org.j6toj8.languageenhancements.stringinswitchandliterals;
 
-public class StringInSwitch_02_Type {
+public class StringInSwitch_04_Break {
 
     public static void main(String[] args) {
         
-        Long mes = 1L;
+        String mes = "jan";
         
-        switch (mes) { // NÃO COMPILA - Long não é um tipo suportado
-        case 1L:
+        switch (mes) {
+        case "jan":
             System.out.println("Janeiro");
-            break;
-        case 2L:
+        default:
+            System.out.println("Não é um mês");
+        case "fev":
             System.out.println("Fevereiro");
             break;
-        default:
+        case "mar":
+            System.out.println("Março");
             break;
-         }
+        }
         
     }
     

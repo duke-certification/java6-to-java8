@@ -14,5 +14,9 @@ arquivo*.txt
 .classpath
 build
 
+### IDEA ###
+.idea
+*.iml
+
 ### others ###
 .vscode

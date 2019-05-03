@@ -12,7 +12,6 @@ public class MultipleException_03_Redundant {
     } catch (RuntimeException | IllegalArgumentException e) { // NÃO COMPILA - IllegalArgumentException herda de RuntimeException, logo seria redundante
         System.out.println("Exceção capturada: " + e);
     }
-    
   }
   // end::code[]
   

@@ -12,7 +12,6 @@ public class MultipleException_01_Complete {
     } catch (Exception e) {
         System.out.println("Exceção capturada: " + e);
     }
-    
   }
   // end::code[]
 }

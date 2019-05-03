@@ -12,7 +12,6 @@ public class MultipleException_07_CheckedException {
     } catch (NullPointerException | IOException e) { // NÃO COMPILA - IOException não é lançada dentro do bloco try
         System.out.println("Exceção capturada: " + e);
     }
-    
   }
   // end::code[]
 }

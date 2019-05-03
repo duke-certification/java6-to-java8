@@ -12,7 +12,6 @@ public class MultipleException_04_OverrideVar {
     } catch (Exception e) {
         e = new IllegalStateException(); // COMPILA - ainda é possível sobrescrever a variável quando não é um multi-catch
     }
-    
   }
   // end::code[]
   

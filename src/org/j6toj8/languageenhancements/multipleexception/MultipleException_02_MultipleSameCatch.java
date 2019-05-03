@@ -16,7 +16,6 @@ public class MultipleException_02_MultipleSameCatch {
     } catch (ClassCastException cce | ConcurrentModificationException) { // NÃO COMPILA - só uma variável, mas no lugar errado
         System.out.println("Exceção capturada: " + cce);
     }
-    
   }
   // end::code[]
   

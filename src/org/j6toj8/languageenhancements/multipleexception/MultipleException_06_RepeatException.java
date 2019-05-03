@@ -12,7 +12,6 @@ public class MultipleException_06_RepeatException {
     } catch (IllegalStateException | NullPointerException e) { // NÃO COMPILA - NullPointerException já foi capturada no catch anterior
         System.out.println("Exceção capturada: " + e);
     }
-    
   }
   // end::code[]
 }

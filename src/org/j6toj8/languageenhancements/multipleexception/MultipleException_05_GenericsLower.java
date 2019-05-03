@@ -12,7 +12,6 @@ public class MultipleException_05_GenericsLower {
     } catch (NullPointerException | IllegalArgumentException e) { // NÃO COMPILA - NullPointerException é mais específico que Exception, logo deveria ser capturada antes de Exception 
         System.out.println("Exceção capturada: " + e);
     } 
-    
   }
   // end::code[]
   

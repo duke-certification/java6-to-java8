@@ -11,7 +11,7 @@ public class StaticDefaultInInterfaces_07_RepeatedDefaultSuper {
   
   interface Piloto {
     default String correr() {
-      return "Correndo";
+      return "Piloto Correndo";
     }
   }
   

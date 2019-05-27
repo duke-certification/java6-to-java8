@@ -6,7 +6,7 @@ public class LocalDateTime_04_Constructor {
 
   public static void main(String[] args) {
     // tag::code[]
-    LocalDateTime localDateTime = new LocalDateTime(); // NÃO COMPILA! - o construtor é privado, não é possível invocá-lo
+    LocalDateTime localDateTime = new LocalDateTime(); // NÃO COMPILA! - não possui construtor padrão
     System.out.println(localDateTime);
     // end::code[]
   }

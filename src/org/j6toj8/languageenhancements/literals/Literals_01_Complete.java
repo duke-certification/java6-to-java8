@@ -19,6 +19,7 @@ public class Literals_01_Complete {
     double d1 = 1.00; // double
     double d2 = 100_000.01; // double com underscore
     double d3 = 1D; // double com D
+    double d4 = 3.1E2; // notação científica = 3.1 * 10^2 = 3.1 * 100 = 310.0
     
     float f1 = 1.00F; // float
     // end::code[]

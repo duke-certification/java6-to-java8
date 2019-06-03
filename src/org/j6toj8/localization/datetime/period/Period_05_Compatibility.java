@@ -16,8 +16,8 @@ public class Period_05_Compatibility {
     System.out.println("\nInstant: " + instant);
     System.out.println("Instant + Period: " + instant.plus(period));
     
-    LocalDate localDate = LocalDate.of(2018, 05, 27);
-    System.out.println("\nLocalDate: " +localDate);
+    LocalDate localDate = LocalDate.of(2018, 5, 27);
+    System.out.println("\nLocalDate: " + localDate);
     System.out.println("LocalDate + Period: " + localDate.plus(period));
     
     LocalDateTime localDateTime = LocalDateTime.of(2018, 05, 27, 13, 1, 1);

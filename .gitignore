@@ -17,6 +17,7 @@ build
 ### IDEA ###
 .idea
 *.iml
+out
 
 ### others ###
 .vscode

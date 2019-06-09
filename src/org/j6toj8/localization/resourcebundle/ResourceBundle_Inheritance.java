@@ -3,7 +3,7 @@ package org.j6toj8.localization.resourcebundle;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class ResourceBundle_06_Inheritance {
+public class ResourceBundle_Inheritance {
 
   public static void main(String[] args) {
 

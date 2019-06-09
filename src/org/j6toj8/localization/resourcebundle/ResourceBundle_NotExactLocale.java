@@ -3,7 +3,7 @@ package org.j6toj8.localization.resourcebundle;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class ResourceBundle_05_NotExactLocale {
+public class ResourceBundle_NotExactLocale {
 
   public static void main(String[] args) {
 

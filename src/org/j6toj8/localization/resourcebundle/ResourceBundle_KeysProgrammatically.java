@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.Set;
 
-public class ResourceBundle_02_KeysProgrammatically {
+public class ResourceBundle_KeysProgrammatically {
 
   // tag::code[]
   public static void main(String[] args) {

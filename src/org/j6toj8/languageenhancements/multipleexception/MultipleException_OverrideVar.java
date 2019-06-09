@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.multipleexception;
 
-public class MultipleException_04_OverrideVar {
+public class MultipleException_OverrideVar {
 
   // tag::code[]
   public static void main(String[] args) {

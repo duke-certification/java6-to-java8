@@ -2,7 +2,7 @@ package org.j6toj8.languageenhancements.multipleexception;
 
 import java.util.ConcurrentModificationException;
 
-public class MultipleException_02_MultipleSameCatch {
+public class MultipleException_MultipleSameCatch {
 
   // tag::code[]
   public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.multipleexception;
 
-public class MultipleException_05_GenericsLower {
+public class MultipleException_GenericsLower {
 
   // tag::code[]
   public static void main(String[] args) {

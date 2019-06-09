@@ -2,7 +2,7 @@ package org.j6toj8.languageenhancements.multipleexception;
 
 import java.util.ConcurrentModificationException;
 
-public class MultipleException_03_Redundant {
+public class MultipleException_Redundant {
 
   // tag::code[]
   public static void main(String[] args) {

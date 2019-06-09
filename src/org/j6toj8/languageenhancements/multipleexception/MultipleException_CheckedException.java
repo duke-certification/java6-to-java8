@@ -2,7 +2,7 @@ package org.j6toj8.languageenhancements.multipleexception;
 
 import java.io.IOException;
 
-public class MultipleException_07_CheckedException {
+public class MultipleException_CheckedException {
 
   // tag::code[]
   public static void main(String[] args) {

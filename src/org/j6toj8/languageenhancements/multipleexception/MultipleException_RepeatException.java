@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.multipleexception;
 
-public class MultipleException_06_RepeatException {
+public class MultipleException_RepeatException {
 
   // tag::code[]
   public static void main(String[] args) {

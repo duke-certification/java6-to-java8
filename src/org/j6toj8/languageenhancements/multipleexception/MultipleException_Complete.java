@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.multipleexception;
 
-public class MultipleException_01_Complete {
+public class MultipleException_Complete {
 
   // tag::code[]
   public static void main(String[] args) {

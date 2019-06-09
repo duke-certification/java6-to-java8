@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CompilerConfiguration">  <excludeFromCompile>
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localtime/LocalTime_04_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_06_RepeatException.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_04_Underscore.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Underscore.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_03_Redundant.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_06_RepeatedDefault.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_05_GenericsLower.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_04_OverrideVar.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_03_Prefix.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Prefix.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_05_Abstract.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_02_Default.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_Default.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_10_CommonTry.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_02_MultipleSameCatch.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_07_NoAutoCloseable.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_01_Complete.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_03_Type.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Complete.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_Type.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_04_LocaleInstantiation.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdatetime/LocalDateTime_04_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_04_AccessModifiers.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_06_ConstantOnly.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_ConstantOnly.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_02_Static.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/instant/Instant_04_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_03_VarScriptExtension.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdate/LocalDate_04_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_06_ResourceInsideTry.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_08_CloseException.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_02_Suffix.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Suffix.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_07_CheckedException.java" />
     </excludeFromCompile>
   </component>

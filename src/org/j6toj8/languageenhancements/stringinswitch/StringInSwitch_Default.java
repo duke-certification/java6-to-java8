@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.stringinswitch;
 
-public class StringInSwitch_04_Break {
+public class StringInSwitch_Default {
 
   // tag::code[]
   public static void main(String[] args) {
@@ -10,10 +10,11 @@ public class StringInSwitch_04_Break {
     switch (mes) {
     case "jan":
       System.out.println("Janeiro");
-    default:
-      System.out.println("Não é um mês");
-    case "fev":
-      System.out.println("Fevereiro");
+      break;
+    default: // COMPILA - O default pode estar em qualquer posição
+      break;
+    case "jan": // NÃO COMPILA - Já existe o case "jan"
+      System.out.println("Janeiro2");
       break;
     case "mar":
       System.out.println("Março");

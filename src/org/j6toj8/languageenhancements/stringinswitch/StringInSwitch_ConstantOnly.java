@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.stringinswitch;
 
-public class StringInSwitch_06_ConstantOnly {
+public class StringInSwitch_ConstantOnly {
 
   // tag::code[]
   private static final String FEV = "fev";

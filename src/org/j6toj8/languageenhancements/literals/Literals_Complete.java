@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.literals;
 
-public class Literals_01_Complete {
+public class Literals_Complete {
 
   public static void main(String[] args) {
 

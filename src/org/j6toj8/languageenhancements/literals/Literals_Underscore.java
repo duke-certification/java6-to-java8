@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.literals;
 
-public class Literals_04_Underscore {
+public class Literals_Underscore {
 
   public static void main(String[] args) {
 

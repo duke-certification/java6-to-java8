@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.literals;
 
-public class Literals_03_Prefix {
+public class Literals_Prefix {
 
   public static void main(String[] args) {
 

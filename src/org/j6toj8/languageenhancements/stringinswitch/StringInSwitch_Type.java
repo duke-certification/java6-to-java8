@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.stringinswitch;
 
-public class StringInSwitch_03_Type {
+public class StringInSwitch_Type {
 
   // tag::code[]
   public static void main(String[] args) {

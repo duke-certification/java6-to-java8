@@ -2,7 +2,7 @@ package org.j6toj8.languageenhancements.staticdefaultininterfaces;
 
 import java.io.IOException;
 
-public class StaticDefaultInInterfaces_04_AccessModifiers {
+public class StaticDefaultInInterfaces_AccessModifiers {
 
   // tag::code[]
   interface Corredor {

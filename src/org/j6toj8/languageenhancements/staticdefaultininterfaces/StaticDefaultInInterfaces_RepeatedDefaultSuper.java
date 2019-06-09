@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.staticdefaultininterfaces;
 
-public class StaticDefaultInInterfaces_07_RepeatedDefaultSuper {
+public class StaticDefaultInInterfaces_RepeatedDefaultSuper {
 
   // tag::code[]
   interface Corredor {

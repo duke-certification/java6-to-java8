@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.staticdefaultininterfaces;
 
-public class StaticDefaultInInterfaces_08_InterfaceInheritance {
+public class StaticDefaultInInterfaces_InterfaceInheritance {
 
   // tag::code[]
   interface Corredor {

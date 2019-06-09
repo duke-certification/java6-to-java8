@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localtime/LocalTime_04_Constructor.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localtime/LocalTime_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_RepeatException.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Underscore.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/multipleexception/MultipleException_Redundant.java" />
@@ -18,13 +18,13 @@
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Complete.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_Type.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_LocaleInstantiation.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdatetime/LocalDateTime_04_Constructor.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdatetime/LocalDateTime_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_AccessModifiers.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_ConstantOnly.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_Static.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/instant/Instant_04_Constructor.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/instant/Instant_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_VarScriptExtension.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdate/LocalDate_04_Constructor.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdate/LocalDate_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_ResourceInsideTry.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_CloseException.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Suffix.java" />

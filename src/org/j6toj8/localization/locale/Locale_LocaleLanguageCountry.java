@@ -3,7 +3,7 @@ package org.j6toj8.localization.locale;
 import java.io.IOException;
 import java.util.Locale;
 
-public class Locale_02_LocaleLanguageCountry {
+public class Locale_LocaleLanguageCountry {
 
   public static void main(String[] args) throws IOException {
     // tag::code[]

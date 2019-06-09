@@ -17,13 +17,13 @@
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_NoAutoCloseable.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/literals/Literals_Complete.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_Type.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_04_LocaleInstantiation.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_LocaleInstantiation.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdatetime/LocalDateTime_04_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_AccessModifiers.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/stringinswitch/StringInSwitch_ConstantOnly.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/staticdefaultininterfaces/StaticDefaultInInterfaces_Static.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/instant/Instant_04_Constructor.java" />
-      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_03_VarScriptExtension.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/locale/Locale_VarScriptExtension.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/localization/datetime/localdate/LocalDate_04_Constructor.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_ResourceInsideTry.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/languageenhancements/trywithresources/TryWithResouces_CloseException.java" />

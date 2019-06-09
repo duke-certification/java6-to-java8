@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.trywithresources;
 
-public class TryWithResouces_09_Suppressed {
+public class TryWithResouces_Suppressed {
   
   // tag::code[]
   static class Porta implements AutoCloseable {

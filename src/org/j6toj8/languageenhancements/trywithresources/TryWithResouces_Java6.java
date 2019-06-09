@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
-public class TryWithResouces_02_Java6 {
+public class TryWithResouces_Java6 {
 
   // tag::code[]
   public static void main(String[] args) throws FileNotFoundException {

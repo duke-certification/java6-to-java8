@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 
-public class TryWithResouces_01_Complete {
+public class TryWithResouces_Complete {
 
   // tag::code[]
   public static void main(String[] args) throws IOException {

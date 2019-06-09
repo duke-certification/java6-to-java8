@@ -2,7 +2,7 @@ package org.j6toj8.languageenhancements.trywithresources;
 
 import java.io.FileNotFoundException;
 
-public class TryWithResouces_03_AutoCloseable {
+public class TryWithResouces_AutoCloseable {
   
   // tag::code[]
   static class Porta implements AutoCloseable {

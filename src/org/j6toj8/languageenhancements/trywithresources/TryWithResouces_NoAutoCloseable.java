@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.trywithresources;
 
-public class TryWithResouces_07_NoAutoCloseable {
+public class TryWithResouces_NoAutoCloseable {
   
   // tag::code[]
   static class Prateleira {}

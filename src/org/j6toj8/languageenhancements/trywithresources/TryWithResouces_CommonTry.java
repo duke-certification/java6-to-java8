@@ -1,6 +1,6 @@
 package org.j6toj8.languageenhancements.trywithresources;
 
-public class TryWithResouces_10_CommonTry {
+public class TryWithResouces_CommonTry {
   
   // tag::code[]
   public static void main(String[] args) {

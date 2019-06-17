@@ -32,8 +32,7 @@ public class DecimalFormat_Instance {
     DecimalFormat instance6 = new DecimalFormat("000000.000");
     System.out.println("000000.000: " + instance6.format(d));
 
-    // omite todas as posições vazias, não utiliza separador e não apresenta casas
-    // decimais
+    // omite todas as posições vazias, não utiliza separador e não apresenta casas decimais
     DecimalFormat instance7 = new DecimalFormat("###");
     System.out.println("###: " + instance7.format(d));
     // end::code[]

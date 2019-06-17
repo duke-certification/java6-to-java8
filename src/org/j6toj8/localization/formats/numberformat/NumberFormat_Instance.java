@@ -1,4 +1,4 @@
-package org.j6toj8.localization.formats;
+package org.j6toj8.localization.formats.numberformat;
 
 import java.text.NumberFormat;
 import java.util.Locale;

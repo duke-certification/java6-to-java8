@@ -4,19 +4,20 @@ public class FunctionalInterfaces_DefaultStatic {
 
   // tag::code[]
   @FunctionalInterface
-  interface Corredor { // interface funcional
-    void corra(); // método funcional
+  interface Executavel { // interface funcional
+    void execute(); // método funcional
 
     // métodos adicionais static são permitidos
-    static void corram(Corredor... corredores) {
-      for (Corredor corredor : corredores) {
-        corredor.corra();
+    static void execute(Executavel... executaveis) {
+      for (Executavel executavel : executaveis) {
+        executavel.execute();
       }
     }
 
     // métodos adicionais default são permitidos
-    default String pule() {
-      return "Corredor pulando";
+    default void executeDuasVezes() {
+      execute();
+      execute();
     }
   }
   // end::code[]

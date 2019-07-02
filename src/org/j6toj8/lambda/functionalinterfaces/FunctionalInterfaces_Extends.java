@@ -4,12 +4,12 @@ public class FunctionalInterfaces_Extends {
 
   // tag::code[]
   @FunctionalInterface
-  interface Corredor { // interface funcional
-    void corra(); // método funcional
+  interface Executavel { // interface funcional
+    void execute(); // método funcional
   }
   
   @FunctionalInterface
-  interface Piloto extends Corredor {
+  interface Aplicacao extends Executavel {
     // também é uma interface funcional
   } 
   // end::code[]

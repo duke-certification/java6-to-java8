@@ -4,14 +4,14 @@ public class FunctionalInterfaces_InterfaceCompilationError {
 
   // tag::code[]
   @FunctionalInterface
-  interface Corredor { // interface funcional
-    void corra(); // método funcional
+  interface Executavel { // interface funcional
+    void execute(); // método funcional
   }
   
   @FunctionalInterface
-  interface Piloto extends Corredor { // NÃO COMPILA!
+  interface Aplicacao extends Executavel { // NÃO COMPILA!
     // não pode ser anotada como funcional, pois possui 2 métodos abstratos
-    void pilote();
+    void inicie();
   } 
   // end::code[]
 }

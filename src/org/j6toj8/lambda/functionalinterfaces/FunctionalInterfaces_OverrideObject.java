@@ -4,8 +4,8 @@ public class FunctionalInterfaces_OverrideObject {
 
   // tag::code[]
   @FunctionalInterface
-  interface Corredor { // interface funcional
-    void corra(); // método funcional
+  interface Executavel { // interface funcional
+    void execute(); // método funcional
 
     // sobrescrevendo métodos de Object
     @Override

@@ -4,28 +4,31 @@ public class LambdaExpression_TypeInference {
 
   // tag::code[]
   @FunctionalInterface
-  interface Corredor {
-    void corra();
+  interface Executavel {
+    void execute(); // método funcional sem argumentos
   }
 
   @FunctionalInterface
-  interface Piloto {
-    String corra();
+  interface Runnable {
+    String run(); // método funcional também sem argumentos
   }
 
   static class Executor {
-    void execute(Corredor corredor) {
-      corredor.corra();
+    // esse método pode receber uma expressão lambda sem argumentos
+    void rode(Executavel executavel) {
+      executavel.execute();
     }
 
-    String execute(Piloto piloto) {
-      return piloto.corra();
+    // esse método também pode receber uma expressão lambda sem argumentos
+    void rode(Runnable runnable) {
+      runnable.run();
     }
   }
 
   public static void main(String[] args) {
     Executor executor = new Executor();
-    String s = executor.execute(() -> "execute");
+    executor.rode(() -> { return "executando"; }); // irá chamar o execute que recebe um Runnable
+    executor.rode(() -> { System.out.println("executando"); }); // irá chamar o execute que recebe um Executavel
   }
   // end::code[]
 }

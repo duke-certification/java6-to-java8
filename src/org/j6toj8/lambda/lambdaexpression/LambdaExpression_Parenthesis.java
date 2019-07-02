@@ -16,7 +16,10 @@ public class LambdaExpression_Parenthesis {
     Supplier<Double> elevar2aoQuadrado = -> Math.pow(2, 2);
     
     // COMPILA - parênteses vazios quando não há variáveis
-    Supplier<Double> elevar2aoQuadrado = () -> Math.pow(2, 2);    
+    Supplier<Double> elevar2aoQuadrado = () -> Math.pow(2, 2);
+    
+    // COMPILA - sem parênteses quando há apenas uma variável e não escrevemos seu tipo
+    UnaryOperator<Double> elevarAoQuadrado2 = x -> Math.pow(x, 2);    
     // end::code[]
   }
 }

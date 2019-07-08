@@ -9,7 +9,7 @@ public class LambdaExpression_TypeInference {
   }
 
   @FunctionalInterface
-  interface Runnable {
+  interface Application {
     String run(); // método funcional também sem argumentos
   }
 
@@ -20,14 +20,14 @@ public class LambdaExpression_TypeInference {
     }
 
     // esse método também pode receber uma expressão lambda sem argumentos
-    void rode(Runnable runnable) {
-      runnable.run();
+    void rode(Application application) {
+      application.run();
     }
   }
 
   public static void main(String[] args) {
     Executor executor = new Executor();
-    executor.rode(() -> { return "executando"; }); // irá chamar o execute que recebe um Runnable
+    executor.rode(() -> { return "executando"; }); // irá chamar o execute que recebe uma Application
     executor.rode(() -> { System.out.println("executando"); }); // irá chamar o execute que recebe um Executavel
   }
   // end::code[]

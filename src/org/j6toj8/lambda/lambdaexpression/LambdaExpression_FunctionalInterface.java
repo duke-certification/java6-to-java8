@@ -25,6 +25,6 @@ public class LambdaExpression_FunctionalInterface {
 
     // com expressão lambda
     executeEApresenteMensagem(() -> { return "executei com expressão lambda"; });
-    // end::code[]
   }
+  // end::code[]
 }

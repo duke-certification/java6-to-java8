@@ -8,7 +8,7 @@ public class MethodReference_Type {
     // tag::code[]
     // representação com expressão lambda
     Function<Integer, Double> intParaDouble1 = x -> x.doubleValue();
-    // representação com referência ao método d
+    // representação com referência ao método doubleValue
     Function<Integer, Double> intParaDouble2 = Integer::doubleValue;
 
     // os resultados serão iguais

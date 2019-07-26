@@ -11,7 +11,7 @@ public class Streams_Match {
     System.out.println("anyMatch: " + anyMatch);
 
     boolean allMatch = Stream.of(7, 2, 1, 8, 4, 9, 2, 8) // stream de vários Integer
-        .allMatch(e -> e > 5); // vefifica se TODOS os elementos são maior que 5
+        .allMatch(e -> e > 5); // vefifica se TODOS os elementos são maiores que 5
     System.out.println("allMatch: " + allMatch);
     
     boolean noneMatch = Stream.of(7, 2, 1, 8, 4, 9, 2, 8) // stream de vários Integer

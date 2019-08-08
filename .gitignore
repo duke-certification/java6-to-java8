@@ -1,6 +1,10 @@
 book-output
 book-release*
 
+### NODE.JS ###
+node_modules*
+npm-debug.log
+
 ### OSX ###
 *.DS_Store
 ._*

@@ -1,25 +1,45 @@
+language: ruby
 sudo: required
 
-services:
-- docker
-
 env:
-- COMPOSE_FILE=docker-compose.yml
+  global:
+    secure: eXGVND48r4WyUCELydGxJ5NZURQ5iSaMYT6sLyPAdsjoio5NO+/eF17Fw61YqljrSgy+SuYTtHSeVLET4VOVMry2AH2474UD4DDAZ0Fo21s/u/+wQzIW7szO+gzg+PB/22zM67Yx+9ICo+xm10juHwJRyse9s5EFCgL40LtHPWXc5iTbSJtQFbc3YqPMmrvZZEeGYKAEX6uaqeoSi5PJdDrZfMAcienrbXMx9ASW1LlaJXEr3GKQLHxdfeiEsmVpppeYbfVSRcNRGIgFHS397D2eTVBbsTnxx72dqkR6eYC9z0sifai6baTPx34K3Us1lTx9/bR2DKYohNhea7jinYNSuJB2Lyrf3u4qfJPVLlnSgT+fJYPkmmjDuRepRUK6Kvs4M69YA7FdOhSKHpZlKUtIGjRVFe4CTvkoPAJt+lSaifVKWBD6Q18NqgCkCgijIq3Hn8tjtbWHe256fqZYjio4HBHwfifWG5oxK9ZTKxc9Z+wv2mASHhnmjWpHCtFvib8HMtIizqEVOndg58vMFXJNX1sisZxIV8+I7LSgHU7OBfi2A2Ik5Zeuo46Q7/V+2xl/nOOpC6M7Bgbe+c8gFc8PyJA/3w9+m6xUmRuE5F14D4ItXZvK1lR70oBTlFb0fXNQrEejsKAerXRw1ThbmaFZqcw7ppPQrOM+ZvFcQf0=
 
-script:
-- ls -lah
-- docker-compose run --rm ebook
+jobs:
+  include:
+    - stage: "Semantic Release"
+      name: "Generate a new release and changelogs"
+      language: node_js
+      node_js: lts/*
+      os:
+        - linux
+      install:
+        - npm install
+      script: skip
+      deploy:
+        provider: script
+        api_key: "$GITHUB_TOKEN"
+        node_js: lts/*
+        skip_cleanup: true
+        script: npx semantic-release
+        on:
+          branch: master
 
-deploy:
-  provider: releases
-  api_key:
-    secure: ygR+ubsOCcsILpZ9ftQ7hYeYohHS4K4U8l1LSimNoNgvf+6xxu9Pjp/uTbiWWj/J4Jc9uQiITM3h5hRxZKNO+m7kQKprRcEXIaT/vDkQWmWB+4G72hon5fwqdhKW++i5IOOXUUPQrEqpXovccgBiwVdwfvMjtp9WIx2lGDNPHAu9rzWJhQF9qlHq+an61K+Ft65OI00qgr6C7Os/va3YZFsdK+0Y4WasX2pXJgvf5TQvyso74JtgNeA1mfcHGp3/bRivi30TOVMtHLnjTIFEVt1ekxnxeJAWkvONsC9+ZPnqF5+9/QdzRXQ9uVaQSwWB6uZQIu18i10UFP92/CM0KyOXvbr8FikjTCsQcc7RThu33eGNlU5CyPvyjweMLHFobaJqTarAd+R7B0VLY8pmAbpt0rLqYOVJvZ8fLzqIDkos+TuGYapBiKMHnnp2oNEgruIB88sxeaBgfbzx+Q36vVA4u79+BJZEA8C+DJYJ+s+NFvFqRvkxsJmQ3gmRtTKgUgQ7WP40/TFLwv3rBodkMBMygjcCAoOKVvYDuTi165vT8ABztgE8G5Z5lnOhPpezZ2dwLh64Do0BGOqMIsIC6Sx4XX8Pg7xnVXenfE+9AN2mCeZNq2tq0kTRqhclr+2T5IdUm9zB90I2VfK+6tuOPsb4DKhhJRtZsUZLMCIW4NA=
-  file_glob: true
-  file: book-release/*
-  skip_cleanup: true
-  on:
-    tags: true
-
-notifications:
-  email:
-  - rcmoutinho@cyborgdeveloper.tech
+    - stage: "GitHub Release"
+      name: "Send the generated files to the new GitHub release"
+      services:
+        - docker
+      env:
+        - COMPOSE_FILE=docker-compose.yml
+      script:
+        - TRAVIS_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
+        - git shortlog -s | cut -f 2- > book/contributors.txt
+        - docker-compose run --rm ebook $TRAVIS_TAG
+      deploy:
+        provider: releases
+        api_key: "$GITHUB_TOKEN"
+        file_glob: true
+        file: book-release/*
+        skip_cleanup: true
+        on:
+          branch: master

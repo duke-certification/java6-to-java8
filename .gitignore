@@ -27,5 +27,8 @@ out
 # warn IDEA to ignore all files that won't be compiling due to educational examples
 !.idea/compiler.xml
 
+# ignores local travis config folder
+.travis
+
 ### others ###
 .vscode

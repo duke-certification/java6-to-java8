@@ -15,7 +15,7 @@ public class Collections_Diamond {
     
     Map<String, String> m1 = new HashMap<String, String>(); // sem diamond
     Map<String, String> m2 = new HashMap<>(); // com diamond
-    Map<> m3 = new HashMap<>(); // NÃO COMPILA - diamond só do lado direito
+    Map<> m3 = new HashMap<String, String>(); // NÃO COMPILA - diamond só do lado direito
 
     Map<List<String>, List<String>> m4 = new HashMap<List<String>, List<String>>(); // sem diamond
     Map<List<String>, List<String>> m5 = new HashMap<>(); // com diamond

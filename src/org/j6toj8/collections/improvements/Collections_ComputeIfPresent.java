@@ -10,12 +10,12 @@ public class Collections_ComputeIfPresent {
     map.put("A", "A".hashCode());
     map.put("B", "B".hashCode());
     
-    System.out.println("Map antes do computeIfAbsent: " + map);
+    System.out.println("Map antes do computeIfPresent: " + map);
     // k = chave; v = valor
     map.computeIfPresent("A", (k, v) -> k.hashCode() * v);
     map.computeIfPresent("B", (k, v) -> k.hashCode() * v);
     map.computeIfPresent("C", (k, v) -> k.hashCode() * v);
-    System.out.println("Map depois do computeIfAbsent: " + map);
+    System.out.println("Map depois do computeIfPresent: " + map);
     // end::code[]
   }
  }

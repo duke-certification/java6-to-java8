@@ -37,6 +37,8 @@
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/lambda/lambdaexpression/LambdaExpression_Shadowing.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/lambda/functionalinterfaces/FunctionalInterfaces_InterfaceCompilationError.java" />
       <file url="file://$PROJECT_DIR$/src/org/j6toj8/lambda/lambdaexpression/LambdaExpression_AccessExternalVar.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/concurrency/executetasks/Tasks_RunnableCallable.java" />
+      <file url="file://$PROJECT_DIR$/src/org/j6toj8/collections/diamond/Collections_Diamond.java" />
     </excludeFromCompile>
   </component>
 </project>

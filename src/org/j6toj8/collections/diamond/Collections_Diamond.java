@@ -23,6 +23,8 @@ public class Collections_Diamond {
     Map<List<String>, List<String>> m7 = new HashMap<List<String>, <>>(); // NÃO COMPILA - a única sintaxe válida é <>
     
     Map<Map<List<String>, List<String>>, Map<List<String>, List<String>>> m8 = new HashMap<>(); // com diamond
+    
+    Map<> m9 = new HashMap<>(); // NÃO COMPILA - é necessário informar o tipo do lado esquerdo
     // end::code[]
   }
   

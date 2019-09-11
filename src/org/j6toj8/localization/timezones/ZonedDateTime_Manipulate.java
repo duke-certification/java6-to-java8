@@ -26,7 +26,6 @@ public class ZonedDateTime_Manipulate {
     System.out.println("+2 semanas: " + zonedDateTime.plusWeeks(2));
     System.out.println("+2 meses: " + zonedDateTime.plusMonths(2));
     System.out.println("+2 anos: " + zonedDateTime.plusYears(2));
-    System.out.println("+2 anos: " + zonedDateTime.plusYears(2));
     System.out.println("+2 décadas: " + zonedDateTime.plus(2, ChronoUnit.DECADES));
     System.out.println("-2 dias: " + zonedDateTime.minusDays(2));
     System.out.println("-2 semanas: " + zonedDateTime.minusWeeks(2));

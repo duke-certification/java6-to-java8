@@ -18,7 +18,7 @@ public class Streams_Primitives {
     
     System.out.println("\n LongStream");
     LongStream.of(1, 2, 3).forEach(System.out::print);
-    System.out.println("");
+    System.out.println();
     LongStream.range(1, 4).forEach(System.out::print);
     // end::code[]
   }

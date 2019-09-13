@@ -14,7 +14,6 @@ public class LocalDate_Manipulate {
     System.out.println("+2 semanas: " + localDate.plusWeeks(2));
     System.out.println("+2 meses: " + localDate.plusMonths(2));
     System.out.println("+2 anos: " + localDate.plusYears(2));
-    System.out.println("+2 anos: " + localDate.plusYears(2));
     System.out.println("+2 décadas: " + localDate.plus(2, ChronoUnit.DECADES));
     System.out.println("-2 dias: " + localDate.minusDays(2));
     System.out.println("-2 semanas: " + localDate.minusWeeks(2));

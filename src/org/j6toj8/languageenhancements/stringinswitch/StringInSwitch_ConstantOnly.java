@@ -24,10 +24,10 @@ public class StringInSwitch_ConstantOnly {
       System.out.println("Março");
       break;
     case abr: // NÃO COMPILA - abr é uma variável comum, pode mudar em tempo de execução
-      System.out.println("Março");
+      System.out.println("Abril");
       break;
     case mai: // NÃO COMPILA - mai é final, mas não é constante, pode mudar em tempo de execução
-      System.out.println("Março");
+      System.out.println("Maio");
       break;
      }
   }

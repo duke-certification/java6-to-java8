@@ -10,7 +10,7 @@ public class FunctionalInterfaces_Implement {
   
   class Pessoa implements Executavel {
     // COMPILA!
-    // interfaces funcionais, como Corredor, não foram feitas para serem implementadas dessa forma
+    // interfaces funcionais, como Executavel, não foram feitas para serem implementadas dessa forma
     // porém é possível e o código compila normalmente
     @Override
     public String execute() {

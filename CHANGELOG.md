@@ -1,3 +1,32 @@
+## [1.0.1](https://github.com/duke-certification/java6-to-java8/compare/v1.0.0...v1.0.1) (2019-09-13)
+
+
+### Bug Fixes
+
+* **collections:** 🐛 calculations, ajustes no texto ([f4c7111](https://github.com/duke-certification/java6-to-java8/commit/f4c7111))
+* **collections:** 🐛 collection improvements, ajustes no texto ([ee6f0ae](https://github.com/duke-certification/java6-to-java8/commit/ee6f0ae))
+* **collections:** 🐛 collections and lambda, ajustes no texto ([46ab851](https://github.com/duke-certification/java6-to-java8/commit/46ab851))
+* **collections:** 🐛 data search, ajustes no texto ([90aa677](https://github.com/duke-certification/java6-to-java8/commit/90aa677))
+* **collections:** 🐛 diamond, ajustes no texto ([bb6cff0](https://github.com/duke-certification/java6-to-java8/commit/bb6cff0))
+* **collections:** 🐛 merge map, ajustes no texto ([6ef9a2f](https://github.com/duke-certification/java6-to-java8/commit/6ef9a2f))
+* **concurrency:** 🐛 concurrent package, ajustes no texto ([a24be1c](https://github.com/duke-certification/java6-to-java8/commit/a24be1c))
+* **concurrency:** 🐛 execute tasks, ajustes no texto ([208c9c9](https://github.com/duke-certification/java6-to-java8/commit/208c9c9))
+* **concurrency:** 🐛 fork-join, ajustes no texto ([cc5580a](https://github.com/duke-certification/java6-to-java8/commit/cc5580a))
+* **concurrency:** 🐛 locks, ajustes no texto ([89c5297](https://github.com/duke-certification/java6-to-java8/commit/89c5297))
+* **file-io:** 🐛 file improvements, ajustes no texto ([e8b09eb](https://github.com/duke-certification/java6-to-java8/commit/e8b09eb))
+* **file-io:** 🐛 files, ajustes no texto ([c854b88](https://github.com/duke-certification/java6-to-java8/commit/c854b88))
+* **file-io:** 🐛 paths, ajustes no texto ([ed5cea1](https://github.com/duke-certification/java6-to-java8/commit/ed5cea1))
+* **file-io:** 🐛 recursive access, ajustes no texto ([312f4b9](https://github.com/duke-certification/java6-to-java8/commit/312f4b9))
+* **file-io:** 🐛 watch service, ajustes no texto ([0b8a141](https://github.com/duke-certification/java6-to-java8/commit/0b8a141))
+* **lambda:** 🐛 functional interfaces, ajuste texto ([72d39ef](https://github.com/duke-certification/java6-to-java8/commit/72d39ef))
+* **lambda:** 🐛 lambda expression code ([4083cab](https://github.com/duke-certification/java6-to-java8/commit/4083cab))
+* **lang-enh:** 🐛 exemplo sobre constantes ([e87f307](https://github.com/duke-certification/java6-to-java8/commit/e87f307))
+* 🐛 appendix, ajustes no texto ([d817f5c](https://github.com/duke-certification/java6-to-java8/commit/d817f5c))
+* **localization:** 🐛 código duplicado ([55b7d2a](https://github.com/duke-certification/java6-to-java8/commit/55b7d2a))
+* **localization:** 🐛 date and time, código duplicado ([8125881](https://github.com/duke-certification/java6-to-java8/commit/8125881))
+* **localization:** 🐛 sintax de código ([a35ffad](https://github.com/duke-certification/java6-to-java8/commit/a35ffad))
+* **localization:** 🐛 time zone, código duplicado ([fe57104](https://github.com/duke-certification/java6-to-java8/commit/fe57104))
+
 # [1.0.0](https://github.com/duke-certification/java6-to-java8/compare/v0.3.0...v1.0.0) (2019-09-03)
 
 

@@ -25,10 +25,10 @@ public class Files_DeletePath {
       Files.createFile(path);
       System.out.println("Path existe? " + Files.exists(path));
       
-      Files.delete(path); // tenta apagadar o Path e lança exceção se ele não existir
+      Files.delete(path); // tenta apagar o Path e lança exceção se ele não existir
       System.out.println("Path existe? " + Files.exists(path));
       
-      Files.deleteIfExists(path); // tenta apagadar o Path e não faz nada se ele não existir
+      Files.deleteIfExists(path); // tenta apagar o Path e não faz nada se ele não existir
       System.out.println("Path existe? " + Files.exists(path));
     } catch (IOException e) {
       e.printStackTrace();

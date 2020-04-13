@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/duke-certification/java6-to-java8/compare/v1.0.1...v1.0.2) (2020-04-13)
+
+
+### Bug Fixes
+
+* 🐛 ensure asciidoc docker image to 1.1.0 ([7a94d87](https://github.com/duke-certification/java6-to-java8/commit/7a94d8717a93c6c4d26a3f180643a68af8b5a3dd))
+
 ## [1.0.1](https://github.com/duke-certification/java6-to-java8/compare/v1.0.0...v1.0.1) (2019-09-13)
 
 

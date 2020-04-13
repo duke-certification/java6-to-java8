@@ -1,8 +1,8 @@
-version: '3'
+version: "3"
 
 services:
   ebook:
-    image: asciidoctor/docker-asciidoctor
+    image: asciidoctor/docker-asciidoctor:1.1.0
     volumes:
       - .:/documents/
     entrypoint: scripts/docker-startup.sh

@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/duke-certification/java6-to-java8/compare/v1.0.2...v1.0.3) (2020-04-14)
+
+
+### Bug Fixes
+
+* 🐛 syntax highlighter ([09a9dcf](https://github.com/duke-certification/java6-to-java8/commit/09a9dcf40762530af30ba63d161c8bafab14a3c8))
+
 ## [1.0.2](https://github.com/duke-certification/java6-to-java8/compare/v1.0.1...v1.0.2) (2020-04-13)
 
 

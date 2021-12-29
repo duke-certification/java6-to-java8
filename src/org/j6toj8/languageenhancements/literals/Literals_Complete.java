@@ -7,7 +7,7 @@ public class Literals_Complete {
     // tag::code[]
     int i1 = 1; // int
     int i2 = 1_000_000; // int com underscore
-    int i3 = 0567; // octadecimal
+    int i3 = 0567; // octal
     int i4 = 0xFA1; // hexadecimal
     int i5 = 0b0101; // binário
     
